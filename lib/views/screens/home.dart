@@ -34,13 +34,11 @@ class _HomePageState extends State<HomePage> {
               title: const Text("Violations"),
               selectedColor: Colors.green,
             ),
-
             SalomonBottomBarItem(
               icon: const Icon(Icons.fire_truck_rounded),
               title: const Text("Trucks"),
               selectedColor: Colors.cyan,
             ),
-
             SalomonBottomBarItem(
               icon: const Icon(Icons.person),
               title: const Text("Drivers"),
@@ -50,9 +48,13 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: SafeArea(
-        child: _currentIndex == 0? ViolationsListFragment():
-            _currentIndex == 1? TrucksListFragment():
-                DriversListFragment(),
+        child: _currentIndex == 0
+            ? ViolationsListFragment(
+                scrollController: scrollController,
+              )
+            : _currentIndex == 1
+                ? const TrucksListFragment()
+                : const DriversListFragment(),
       ),
     );
   }

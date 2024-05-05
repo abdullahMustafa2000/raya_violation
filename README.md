@@ -1,16 +1,10 @@
-# raya_violation
+# Raya Violation
 
-A new Flutter project.
+Ostool Violation Viewer Mobile App
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a co-opration between Ryada and RAYA Compnaies to help the earlier company to view their trucks and trailers traffic violations.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/abdullahMustafa2000/raya_violation/assets/83887203/4ed57e2c-2390-4d0b-98d3-5c779df5d479)
